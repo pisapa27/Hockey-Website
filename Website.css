@@ -1,7 +1,23 @@
-.addMore {
-	border: none;
-	background-color: white;
+h1 {
+	text-align: center;
+}
+a {
 	color: black;
-	font-weight: bold;
-	font-size: 20px
+}
+
+th {
+	font-size: 17px; 
+}
+
+table {
+	text-align: right;
+	border-spacing: 5px;
+	border-style: solid;
+}
+.extra { 
+    display: none;
+}
+
+p:hover .extra {
+    display: inline-block;
 }
